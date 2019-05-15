@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cucumber" />
         <module name="Intellij" />
+        <module name="cucumber" />
       </profile>
     </annotationProcessing>
   </component>

@@ -7,6 +7,9 @@ public class Calculadora {
         } else if (operador == '*') {
             return multiplicar(num1,num2);
         }
+        else if (operador == '/') {
+            return dividir(num1,num2);
+        }
         return 0;
     }
     private int somar(int num1, int num2){
@@ -18,4 +21,5 @@ public class Calculadora {
     private int multiplicar(int num1, int num2){
         return num1 * num2;
     }
+    private int dividir(int num1, int num2){return num1 / num2;}
 }
